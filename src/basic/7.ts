@@ -4,8 +4,8 @@ type Pages = {
   accounts: [string, ...string[]];
   status: string;
   details?: {
-    createAt: any;
-    updateAt: any;
+    createAt: Date;
+    updateAt: Date;
   };
 };
 
