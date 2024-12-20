@@ -3,7 +3,9 @@ let variable: string | number;
 variable = "Good afternoon";
 variable = 254;
 
-let literalType: false | 10;
+type LiteralType = "enable" | "disable";
 
-literalType = false;
-literalType = 10;
+let meaning: LiteralType;
+
+meaning = "enable";
+meaning = "disable";
